@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="w-full max-w-[300px] border border-line bg-[#ebe7dd] p-2.5 sm:max-w-[340px] md:max-w-[430px] md:p-4">
             <div className="relative aspect-[3/4] overflow-hidden">
               <Image
-                src="/projects/ferdy.JPEG"
+                src="/projects/ferdy.jpeg"
                 alt="Muhammad Ferdy Oktavian"
                 fill
                 priority
