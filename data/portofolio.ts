@@ -58,7 +58,7 @@ export const projects: Project[] = [
     description:
       "A 2D interactive quiz game developed with Unity Engine, combining platforming elements with a question-based progression system.",
     technologies: ["Unity", "C#", "Game Development"],
-    images: ["/projects/beyond-gameplay.jpg", "/projects/beyond-menu.jpg"],
+    images: ["/projects/beyond-gameplay.JPG", "/projects/beyond-menu.JPG"],
   },
 
   {
