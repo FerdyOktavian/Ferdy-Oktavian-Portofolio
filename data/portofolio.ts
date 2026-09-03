@@ -44,9 +44,9 @@ export const projects: Project[] = [
       "A web-based system for classifying palm oil fruit ripeness from digital images using a Convolutional Neural Network with EfficientNetV2S.",
     technologies: ["Python", "CNN", "EfficientNetV2S", "Computer Vision"],
     images: [
-      "/projects/sawit-home.jpg",
-      "/projects/sawit-predict2.jpg",
-      "/projects/sawit-about.jpg",
+      "/projects/sawit-home.JPG",
+      "/projects/sawit-predict2.JPG",
+      "/projects/sawit-about.JPG",
     ],
     github: "https://github.com/FerdyOktavian/klasifikasi_sawit_efficientNetV2",
   },
