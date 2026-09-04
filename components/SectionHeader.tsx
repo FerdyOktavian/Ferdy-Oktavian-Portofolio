@@ -19,32 +19,36 @@ export default function SectionHeader({
   };
 
   return (
-    <div className="mx-auto max-w-[1240px] px-5 pt-14 sm:px-6 md:px-10 md:pt-28">
-      <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-end">
+    <div className="mx-auto max-w-[1240px] px-5 pt-12 sm:px-6 md:px-10 md:pt-16 lg:pt-20">
+      <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-end md:gap-10">
         <div>
+          {/* SECTION LABEL */}
           <div
-            className={`flex items-center gap-3 text-xs font-medium uppercase tracking-[0.18em] ${mutedClasses[tone]}`}
+            className={`flex items-center gap-2.5 text-[11px] font-medium uppercase tracking-[0.16em] sm:text-xs ${mutedClasses[tone]}`}
           >
             <span>Section</span>
 
-            <span className="h-px w-8 bg-current opacity-40" />
+            <span className="h-px w-6 bg-current opacity-40" />
 
             <span>{number}</span>
           </div>
 
-          <h2 className="mt-5 text-5xl leading-[0.92] font-semibold tracking-[-0.045em] md:mt-7 md:text-7xl md:leading-[0.88] lg:text-[7rem]">
+          {/* TITLE */}
+          <h2 className="mt-4 max-w-4xl text-[2.6rem] leading-[0.98] font-semibold tracking-[-0.045em] sm:text-5xl md:mt-5 md:text-6xl lg:text-[4.5rem]">
             {title}
           </h2>
 
+          {/* DESCRIPTION */}
           <p
-            className={`mt-5 max-w-xl text-base leading-7 md:mt-8 md:text-xl md:leading-8 ${mutedClasses[tone]}`}
+            className={`mt-4 max-w-2xl text-[15px] leading-7 sm:text-base md:mt-5 md:text-lg md:leading-8 ${mutedClasses[tone]}`}
           >
             {description}
           </p>
         </div>
 
+        {/* DECORATIVE NUMBER */}
         <div
-          className="hidden text-[9rem] leading-none font-semibold tracking-[-0.08em] opacity-[0.08] md:block lg:text-[12rem]"
+          className="hidden select-none text-[6rem] leading-[0.8] font-semibold tracking-[-0.07em] opacity-[0.055] md:block lg:text-[7.5rem]"
           aria-hidden="true"
         >
           {number}
