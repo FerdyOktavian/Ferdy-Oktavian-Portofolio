@@ -12,6 +12,7 @@ export default function Skills() {
         title="Skills"
         description="Programming languages, technologies, and tools I've worked with while turning ideas into actual projects."
         tone="sage"
+        variant="skills"
       />
 
       <div className="mx-auto max-w-[1240px] px-6 pb-28 pt-16 md:px-10 md:pb-36 md:pt-24">

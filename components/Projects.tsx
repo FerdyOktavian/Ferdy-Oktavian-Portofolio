@@ -23,9 +23,10 @@ export default function Projects() {
         title="Selected Work"
         description="A selection of projects I've built while exploring machine learning, computer vision, websites, games, and software development."
         tone="sage"
+        variant="work"
       />
 
-      <div className="mx-auto max-w-[1240px] px-6 pb-28 pt-16 md:px-10 md:pb-40 md:pt-24">
+      <div className="mx-auto max-w-[1240px] px-5 pb-24 pt-10 sm:px-6 md:px-10 md:pb-28 md:pt-12">
         {/* ====================================================== */}
         {/* 01 — SAWITVISION / FEATURED PROJECT */}
         {/* ====================================================== */}
@@ -122,7 +123,7 @@ export default function Projects() {
         {/* 02 — BEYOND THE RIDDLE */}
         {/* ====================================================== */}
 
-        <article className="mt-20 md:mt-36 lg:mt-44">
+        <article className="mt-16 md:mt-20 lg:mt-24">
           <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             {/* IMAGE */}
             <div>
@@ -208,7 +209,7 @@ export default function Projects() {
         {/* 03 — BERHENTISEKARANG */}
         {/* ====================================================== */}
 
-        <article className="mt-20 md:mt-36 lg:mt-44">
+        <article className="mt-16 md:mt-20 lg:mt-24">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             {/* TEXT */}
             <div className="order-2 lg:order-1">
@@ -275,7 +276,7 @@ export default function Projects() {
         {/* MORE PROJECTS */}
         {/* ====================================================== */}
 
-        <div className="mt-20 md:mt-36 lg:mt-44">
+        <div className="mt-16 md:mt-20 lg:mt-24">
           <div className="mb-12 max-w-xl">
             <p className="text-xs uppercase tracking-[0.18em] text-[#65705f]">
               More work

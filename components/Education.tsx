@@ -9,9 +9,10 @@ export default function Education() {
         title="Education"
         description="My academic background and the place where I studied Informatics."
         tone="warm"
+        variant="education"
       />
 
-      <div className="mx-auto max-w-[1240px] px-6 py-20 md:px-10 md:py-28">
+      <div className="mx-auto max-w-[1240px] px-5 pb-20 pt-10 sm:px-6 md:px-10 md:pb-15 md:pt-10">
         {education.map((item) => (
           <article
             key={item.institution}

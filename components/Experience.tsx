@@ -8,9 +8,10 @@ export default function Experience() {
         number="03"
         title="Experience"
         description="The place where I've had the opportunity to teach, help others learn, and gain practical experience."
+        variant="experience"
       />
 
-      <div className="mx-auto max-w-[1240px] px-6 py-20 md:px-10 md:py-28">
+      <div className="mx-auto max-w-[1240px] px-5 pb-20 pt-10 sm:px-6 md:px-10 md:pb-24 md:pt-12">
         {experiences.map((experience) => (
           <article
             key={experience.role}

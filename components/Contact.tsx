@@ -9,9 +9,10 @@ export default function Contact() {
         title="Contact"
         description="Have something you want to talk about? You can reach me through email, GitHub, or LinkedIn."
         tone="dark"
+        variant="contact"
       />
 
-      <div className="mx-auto max-w-[1240px] px-6 pb-28 pt-16 md:px-10 md:pb-36 md:pt-24">
+      <div className="mx-auto max-w-[1240px] px-5 pb-20 pt-10 sm:px-6 md:px-10 md:pb-24 md:pt-12">
         <div className="grid gap-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-24">
           {/* LEFT SIDE */}
           <div>
@@ -36,7 +37,7 @@ export default function Contact() {
 
               <a
                 href={`mailto:${contact.email}`}
-                className="block max-w-fit break-all text-[clamp(1.7rem,4vw,3.6rem)] leading-tight tracking-[-0.04em] transition-opacity hover:opacity-60"
+                className="block max-w-fit break-all text-lg leading-tight tracking-[-0.02em] transition-opacity hover:opacity-60 sm:text-xl md:text-2xl lg:text-3xl"
               >
                 {contact.email}
               </a>
